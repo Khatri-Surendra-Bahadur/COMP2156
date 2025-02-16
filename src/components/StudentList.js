@@ -1,19 +1,12 @@
 import React from "react";
-import StudentCard from "./StudentCard";
 
-const StudentList = ({ students }) => {
+function StudentList() {
   return (
     <div>
       <h2>Student List</h2>
-      {students.length > 0 ? (
-        students.map((student, index) => (
-          <StudentCard key={index} student={student} />
-        ))
-      ) : (
-        <p>No students added yet</p>
-      )}
+      <p>This is a placeholder for the student list component.</p>
     </div>
   );
-};
+}
 
 export default StudentList;

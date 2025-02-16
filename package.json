@@ -1,13 +1,14 @@
-"homepage": "https://Khatri-Surendra-Bahadur.github.io/COMP2156",
+{
+  "homepage": "https://Khatri-Surendra-Bahadur.github.io/COMP2156",
   "name": "comp2156",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
+    "test": "echo 'Error: no test specified'",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
 
